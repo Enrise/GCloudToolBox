@@ -1,5 +1,8 @@
 # GCloud box with kubectl and extras
 
+> This project is deprecated in favour of [Enrise/KubeToolbox](https://github.com/Enrise/KubeToolbox).
+> Please use enrise/kube-toolbox:latest for added features and ongoing support.
+
 Available commands in this box:
 
 - `gcloud`: google cloud commands

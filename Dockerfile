@@ -18,3 +18,9 @@ RUN gcloud components install beta kubectl \
 
 # Wait for rollout script
 COPY wait-for-rollout.sh /bin/wait-for-rollout
+
+# Entrypoint to show EOL notice
+COPY entrypoint.sh /bin/entrypoint.sh
+
+ENTRYPOINT ["/bin/entrypoint.sh"]
+CMD ["/bin/sh"]
