@@ -13,5 +13,5 @@ echo ""
 
 sleep 10
 
-$@
+/google-cloud-sdk/bin/real-kubectl $@
 exit $?
